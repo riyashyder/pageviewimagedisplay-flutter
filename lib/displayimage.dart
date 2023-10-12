@@ -13,7 +13,7 @@ class DisplayImage extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
         image: DecorationImage(
-          image: AssetImage(appdata.imagepath),
+          image: AssetImage(appdata.image),
           fit: BoxFit.fitHeight,
         ),
       ),

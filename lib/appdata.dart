@@ -1,8 +1,8 @@
 
 
 class Appdata{
-  final String imagepath;
-   Appdata(this.imagepath);
+  final String image;
+   Appdata(this.image);
 }
 
 List<Appdata> appdatalist = [
